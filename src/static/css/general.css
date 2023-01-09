@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title-bar {
+
+}
+
+#title-bar {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+    height: 30px;
+}
+
+#title-bar > .title {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+#title-bar > .action-button {
+    -webkit-app-region: no-drag;
+    font-size: 0;
+}
+
+#title-bar > .action-button > button {
+    border: 0;
+    height: 30px;
+    display: inline-block;
+    width: 45px;
+}
+
+#title-bar > .action-button > button > img {
+    width: 12px;
+}
+
+#title-bar > .action-button > button.maximize-button > img {
+    width: 10px;
+}
+
+#title-bar > .app-icon {
+    height: 20px;
+    margin-left: 10px;
+}

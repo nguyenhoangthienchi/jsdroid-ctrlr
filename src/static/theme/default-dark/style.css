@@ -1,0 +1,19 @@
+body {
+    background: #222222;
+}
+
+#title-bar > .title {
+    color: #a5a5a5;
+}
+
+#title-bar > .action-button > button {
+    background: transparent;
+}
+
+#title-bar > .action-button > button:hover {
+    background: #444;
+}
+
+#title-bar > .action-button > button.close-button:hover {
+    background: #ff0000;
+}
